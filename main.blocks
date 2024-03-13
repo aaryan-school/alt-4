@@ -1,1 +1,7 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="FNlYu]ie_9PKB|asCB;E" x="0" y="0"></block><block type="device_forever" id="LglFl16KN5gOzvC-bz)+" x="205" y="0"></block><block type="device_button_event" id="Az}xq4ew#DMsUpewp@Nq" x="127" y="193"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="synth_set_volume" id="+#k-6Di*5SS8vn!43S}Q"><value name="volume"><shadow type="math_number_minmax" id="/sxMA%J`*g6-O;@r7-)g"><mutation min="0" max="255" label="Volume" precision="0"></mutation><field name="SLIDER">127</field></shadow></value></block></statement></block><block type="radio_set_group" id="dB4M[45_-0w)/)Wkn:kK" disabled="true" x="512" y="217"><value name="ID"><shadow type="math_number_minmax" id="eylni(Yrg2yTO=yy+PO|" disabled="true"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">1</field></shadow></value></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="FNlYu]ie_9PKB|asCB;E" x="0" y="0"></block><block type="device_forever" id="LglFl16KN5gOzvC-bz)+" x="205" y="0"><statement name="HANDLER"><block type="device_show_leds" id="{B0]xm/mWL6mV]}SbO2."><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></xml>
