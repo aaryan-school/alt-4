@@ -27,15 +27,16 @@ basic.forever(function () {
         basic.pause(1000)
         count += -1
     }
-    basic.clearScreen()
     while (finished == 0) {
-        for (let index = 0; index <= repcount; index++) {
+        basic.clearScreen()
+        for (let index = 0; index <= repcount - 1; index++) {
             led.plot(xcount, ycount)
             xcount += 1
-            if (xcount == 4) {
-                ycount += -1
+            if (xcount == 5) {
+                ycount += 1
                 xcount = 0
             }
         }
+        finished = 1
     }
 })
